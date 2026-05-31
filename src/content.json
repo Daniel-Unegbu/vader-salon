@@ -1,0 +1,46 @@
+{
+  "hero": {
+    "headlinePrefix": "Transform Your Look at",
+    "headlineHighlight": "Lekki's Premier",
+    "headlineSuffix": "Unisex Salon",
+    "subheadline": "At Vader's Style, we craft styles that turn heads and boost confidence. From crisp men's fades and custom women's styling to patient kids' cuts — we deliver head-to-toe excellence.",
+    "tagline": "Open Weekly — Book anytime, day or night",
+    "primaryCta": {
+      "href": "tel:+2348092223960",
+      "label": "Call Us Now"
+    },
+    "secondaryCta": {
+      "href": "https://wa.me/2348092223960",
+      "label": "Chat on WhatsApp",
+      "target": "_blank",
+      "rel": "noopener noreferrer"
+    }
+  },
+  "services": [
+    {
+      "title": "Men's Grooming",
+      "description": "Precision cuts & barbering. From sharp skin fades and beard sculpting to hot towel treatments and texturizing.",
+      "href": "/mens-grooming",
+      "imageSrc": "/assets/services-men.jpg"
+    },
+    {
+      "title": "Women's Styling",
+      "description": "Luxury hair & styling. Sleek silk presses, intricate braiding, custom wig installs, weaving, and color treatments.",
+      "href": "/womens-styling",
+      "imageSrc": "/assets/services-women.jpg"
+    },
+    {
+      "title": "Kids' Corner",
+      "description": "Gentle kids' styling. Patient, professional trims, school braids, and gentle detangling for children.",
+      "href": "/kids-corner",
+      "imageSrc": "/assets/services-kids.jpg"
+    },
+    {
+      "title": "General Services",
+      "description": "Head-to-toe care. Pampering manicures, pedicures, rejuvenating facials, and grooming add-ons.",
+      "href": "/general-services",
+      "imageSrc": "/assets/services-general.jpg"
+    }
+  ]
+}
+

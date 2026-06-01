@@ -148,479 +148,538 @@
 
             <div class="hidden lg:block relative">
               <div class="relative rounded-2xl overflow-hidden shadow-2xl aspect-[4/5]">
-                <img alt="Hairdressers giving haircut to customers in unisex salon" class="w-full h-full object-cover"
-                  src="https://assets.ls-assets.com/provider/istock/481253861.jpg?w=768" />
-                <div class="absolute inset-0 ring-1 ring-inset ring-white/10 rounded-2xl"></div>
-              </div>
-              <div
-                class="absolute -bottom-4 -left-4 bg-neutral-900 border border-white/10 rounded-xl px-5 py-3 shadow-xl">
-                <p class="text-2xl font-serif font-bold text-amber-500">7 Days</p>
-                <p class="text-xs text-gray-400">Open Weekly</p>
+
+                <!-- The Moving Track Container -->
+                <div id="hero-carousel" class="flex w-full h-full transition-transform duration-500 ease-in-out"
+                  style="transform: translateX(0%);">
+
+                  <!-- Slide 1 (True First) -->
+                  <img alt="Salon hero image 1" class="w-full h-full object-cover shrink-0"
+                    src="src/images/hero1.jpg" />
+
+                  <!-- Slide 2 -->
+                  <img alt="Salon hero image 2" class="w-full h-full object-cover shrink-0"
+                    src="src/images/hero2.png" />
+
+                  <!-- Slide 3 -->
+                  <img alt="Salon hero image 3" class="w-full h-full object-cover shrink-0"
+                    src="src/images/hero3.jpg" />
+
+                  <!-- Slide 4 (True Last) -->
+                  <img alt="Salon hero image 4" class="w-full h-full object-cover shrink-0"
+                    src="src/images/hero4.jpg" />
+
+                  <!-- Slide 5 (CLONE OF SLIDE 1) -->
+                  <img alt="Salon hero image 1 clone" class="w-full h-full object-cover shrink-0"
+                    src="src/images/hero1.jpg" />
+
+                </div>
+
+                <div class="absolute inset-0 ring-1 ring-inset ring-white/10 rounded-2xl pointer-events-none"></div>
               </div>
             </div>
-          </div>
-
-          <div class="absolute bottom-6 left-1/2 -translate-x-1/2 z-10">
-            <div class="w-5 h-8 rounded-full border-2 border-white/20 flex items-start justify-center p-1">
-              <div class="w-1 h-2 rounded-full bg-amber-500 animate-bounce"></div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- All remaining sections are preserved exactly from vader.html -->
-      <!-- The rest of the markup is included verbatim below to ensure exact match. -->
-      <section class="py-20 lg:py-28 bg-gray-100">
-
-        <div class="container max-w-7xl mx-auto px-4">
-          <div class="text-center mb-14">
-            <p class="text-amber-600 text-xs font-semibold tracking-[0.2em] uppercase mb-3">What We Offer</p>
-            <h2 class="font-serif text-3xl sm:text-4xl lg:text-5xl font-bold text-neutral-900">Our Services</h2>
-            <p class="text-gray-400 mt-4 max-w-lg mx-auto text-sm">Expert grooming and styling across four dedicated
-              categories. Whatever your style, we've got you covered.</p>
-          </div>
-          <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
-            <!-- Women's Styling -->
-            <div
-              class="group block bg-white rounded-2xl overflow-hidden border border-peach-200 hover:border-amber-300 transition-all duration-500">
-              <div class="aspect-[4/3] bg-peach-100 overflow-hidden">
-                <img class="w-full h-full object-cover group-hover:scale-[1.02] transition-transform duration-500"
-                  src="src/images/womenhair.jpg" alt="Women's Styling" />
-              </div>
-              <div class="p-5">
-                <h3 class="font-serif text-lg sm:text-xl font-bold text-neutral-900 mb-2">Women&apos;s Styling</h3>
-                <p class="text-neutral-600 text-sm leading-relaxed">Luxury hair &amp; styling. Sleek silk presses,
-                  intricate braiding, custom installs, weaving, and color treatments.</p>
-              </div>
-            </div>
-
-            <!-- Men's Grooming -->
-            <div
-              class="group block bg-white rounded-2xl overflow-hidden border border-peach-200 hover:border-amber-300 transition-all duration-500">
-              <div class="aspect-[4/3] bg-peach-100 overflow-hidden">
-                <img class="w-full h-full object-cover group-hover:scale-[1.02] transition-transform duration-500"
-                  src="src/images/menshaircut.jpg" alt="Men's Grooming" />
-              </div>
-              <div class="p-5">
-                <h3 class="font-serif text-lg sm:text-xl font-bold text-neutral-900 mb-2">Men&apos;s Grooming</h3>
-                <p class="text-neutral-600 text-sm leading-relaxed">Precision cuts &amp; barbering. Sharp skin fades,
-                  beard sculpting, hot towel treatments, and texturizing.</p>
-              </div>
-            </div>
-
-            <!-- Kids' Corner -->
-            <div
-              class="group block bg-white rounded-2xl overflow-hidden border border-peach-200 hover:border-amber-300 transition-all duration-500">
-              <div class="aspect-[4/3] bg-peach-100 overflow-hidden">
-                <img class="w-full h-full object-cover group-hover:scale-[1.02] transition-transform duration-500"
-                  src="src/images/kidshaircut.jpg" alt="Kids' Corner" />
-              </div>
-              <div class="p-5">
-                <h3 class="font-serif text-lg sm:text-xl font-bold text-neutral-900 mb-2">Kids&apos; Corner</h3>
-                <p class="text-neutral-600 text-sm leading-relaxed">Gentle kids&apos; styling. Patient, professional
-                  trims,
-                  school braids, and careful detangling.</p>
-              </div>
-            </div>
-
-            <!-- General Services -->
-            <div
-              class="group block bg-white rounded-2xl overflow-hidden border border-peach-200 hover:border-amber-300 transition-all duration-500">
-              <div class="aspect-[4/3] bg-peach-100 overflow-hidden">
-                <img class="w-full h-full object-cover group-hover:scale-[1.02] transition-transform duration-500"
-                  src="src/images/nailgeneral.jpg" alt="General Services" />
-              </div>
-              <div class="p-5">
-                <h3 class="font-serif text-lg sm:text-xl font-bold text-neutral-900 mb-2">General Services</h3>
-                <p class="text-neutral-600 text-sm leading-relaxed">Head-to-toe care. Pampering manicures &amp;
-                  pedicures,
-                  rejuvenating facials, and grooming add-ons.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="py-20 lg:py-28 relative overflow-hidden text-white">
-
-        <!-- 1. IMAGE BACKGROUND & OVERLAY LAYER -->
-        <div class="absolute inset-0 z-0">
-          <!-- The actual background image -->
-          <img src="https://images.unsplash.com/photo-1596740926849-2d473dee8d60?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Salon Interior" class="w-full h-full object-cover" />
-          <!-- The dark overlay tint (adjust opacity via black/40, black/60, etc.) -->
-          <div class="absolute inset-0 bg-black/60"></div>
-        </div>
-
-        <!-- 2. YOUR ORIGINAL BLUR DECORATION -->
-        <div class="absolute -top-40 -right-40 w-80 h-80 bg-amber-500/5 rounded-full blur-3xl z-10"></div>
-
-        <!-- 3. YOUR CONTENT CONTAINER -->
-        <div class="container max-w-7xl mx-auto px-4 relative z-20">
-          <div class="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
             <div>
-              <p class="text-amber-500 text-xs font-semibold tracking-[0.2em] uppercase mb-3">Our Story</p>
-              <h2 class="font-serif text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-6">About Vader's Style
-                Unisex Salon</h2>
-              <div class="space-y-4 text-gray-100 leading-relaxed">
-                <p>At Vader's Style, we bring out your best look and most confident self. Located premium off Chevron
-                  Drive, Lekki, we offer expert hairstyling and grooming services for all genders and ages.</p>
-                <p>We believe grooming is personal — so we listen, advise, and tailor each cut to your unique vibe.
-                  Every visit is a crafted experience in a clean, modern, and welcoming environment.</p>
-              </div><a
-                class="inline-flex items-center gap-2 mt-6 text-amber-500 hover:text-amber-400 text-sm font-semibold transition-colors"
-                href="/about-us" data-discover="true">Learn More About Us <span
-                  class="text-lg leading-none">→</span></a>
-            </div>
-            <div class="grid grid-cols-3 gap-4">
-              <div
-                class="bg-gradient-to-b via-white from-white to-amber-500 rounded-2xl p-6 text-center hover:border-amber-500/20 transition-all duration-500">
-                <p class="font-serif text-4xl sm:text-5xl font-bold text-amber-500 mb-1">12+</p>
-                <p class="text-xs text-gray-700 font-medium">Expert Stylists &amp; Barbers</p>
-              </div>
-              <div
-                class="bg-gradient-to-b via-white from-white to-amber-500 rounded-2xl p-6 text-center hover:border-amber-500/20 transition-all duration-500">
-                <p class="font-serif text-4xl sm:text-5xl font-bold text-amber-500 mb-1">1,500+</p>
-                <p class="text-xs text-gray-700 font-medium">Happy Clients Served</p>
-              </div>
-              <div
-                class="bg-gradient-to-b via-white from-white to-amber-500 rounded-2xl p-6 text-center hover:border-amber-500/20 transition-all duration-500">
-                <p class="font-serif text-4xl sm:text-5xl font-bold text-amber-500 mb-1">7 Days</p>
-                <p class="text-xs text-gray-700 font-medium">Weekly Consistency</p>
-              </div>
+              class="absolute -bottom-4 -left-4 bg-neutral-900 border border-white/10 rounded-xl px-5 py-3 shadow-xl">
+              <p class="text-2xl font-serif font-bold text-amber-500">7 Days</p>
+              <p class="text-xs text-gray-400">Open Weekly</p>
             </div>
           </div>
         </div>
-      </section>
-      <section class="py-20 lg:py-28 bg-white">
-        <div class="container max-w-7xl mx-auto px-4">
-          <div class="text-center mb-14">
-            <p class="text-amber-500 text-xs font-semibold tracking-[0.2em] uppercase mb-3">The Difference</p>
-            <h2 class="font-serif text-3xl sm:text-4xl lg:text-5xl font-bold text-black">Why Choose Vader's Style?
-            </h2>
-          </div>
-          <div class="grid md:grid-cols-3 gap-6">
-            <div
-              class="bg-gradient-to-b from-amber-200 to-amber-600 rounded-2xl p-8">
-              <div
-                class="w-12 h-12 rounded-full bg-white flex items-center justify-center mb-5">
-                <svg class="w-6 h-6 text-amber-500" fill="none" viewBox="0 0 24 24" stroke="currentColor"
-                  stroke-width="1.5">
-                  <path stroke-linecap="round" stroke-linejoin="round"
-                    d="M9 12.75L11.25 15 15 9.75m-3-7.036A11.959 11.959 0 013.598 6 11.99 11.99 0 003 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285z">
-                  </path>
-                </svg>
-              </div>
-              <h3 class="font-serif text-lg font-bold text-black mb-3">Skilled &amp; Friendly Experts</h3>
-              <p class="text-white text-sm leading-relaxed">Barbers and stylists who stay ahead of trends and match
-                cuts to your facial structure. We listen, then deliver.</p>
-            </div>
-            <div
-              class="bg-gradient-to-b from-amber-200 to-amber-600 rounded-2xl p-8">
-              <div
-                class="w-12 h-12 rounded-full bg-white flex items-center justify-center mb-5">
-                <svg class="w-6 h-6 text-amber-500" fill="none" viewBox="0 0 24 24" stroke="currentColor"
-                  stroke-width="1.5">
-                  <path stroke-linecap="round" stroke-linejoin="round"
-                    d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z"></path>
-                </svg>
-              </div>
-              <h3 class="font-serif text-lg font-bold text-black mb-3">Hygienic &amp; Modern Studio</h3>
-              <p class="text-white text-sm leading-relaxed">Clean tools, sterilized clippers, and a comfortable,
-                pristine atmosphere at Buckingham Court. Your safety matters.</p>
-            </div>
-            <div
-              class="bg-gradient-to-b from-amber-200 to-amber-600 rounded-2xl p-8">
-              <div
-                class="w-12 h-12 rounded-full bg-white flex items-center justify-center mb-5">
-                <svg class="w-6 h-6 text-amber-500" fill="none" viewBox="0 0 24 24" stroke="currentColor"
-                  stroke-width="1.5">
-                  <path stroke-linecap="round" stroke-linejoin="round"
-                    d="M2.25 8.25h19.5M2.25 9h19.5m-16.5 5.25h6m-6 2.25h3m-3.75 3h15a2.25 2.25 0 002.25-2.25V6.75A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25v10.5A2.25 2.25 0 004.5 19.5z">
-                  </path>
-                </svg>
-              </div>
-              <h3 class="font-serif text-lg font-bold text-black mb-3">Transparent, Great Pricing</h3>
-              <p class="text-white text-sm leading-relaxed">Premium quality styling and luxury treatments delivered
-                at highly competitive local rates. No surprises, just results.</p>
-            </div>
+
+        <div class="absolute bottom-6 left-1/2 -translate-x-1/2 z-10">
+          <div class="w-5 h-8 rounded-full border-2 border-amber-500 flex items-start justify-center p-1">
+            <div class="w-1 h-2 rounded-full bg-amber-500 animate-bounce"></div>
           </div>
         </div>
-      </section>
-      <section class="py-20 lg:py-28 relative overflow-hidden">
-        <div class="absolute inset-0"><img alt="" class="w-full h-full object-cover"
-            src="https://assets.ls-assets.com/provider/istock/2239627708.jpg?w=1920">
-          <div class="absolute inset-0 bg-neutral-950/85 backdrop-blur-sm"></div>
-        </div>
-        <div class="container max-w-7xl mx-auto px-4 relative z-10 text-center">
-          <h2 class="font-serif text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-4">Ready to Look and Feel
-            Your
-            Best?</h2>
-          <p class="text-gray-300 max-w-lg mx-auto mb-10 text-base">Experience premium salon and grooming services in
-            Lekki. Book your next beauty, styling, or barbering session now and let us pamper you the Vader way.</p>
-          <div class="flex flex-wrap justify-center gap-4"><a href="tel:+2348092223960"
-              class="inline-flex items-center gap-2 bg-amber-500 hover:bg-amber-400 text-black font-semibold px-8 py-4 rounded-full transition-all duration-300 hover:shadow-lg hover:shadow-amber-500/25"><svg
-                xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
-                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                class="lucide lucide-phone w-5 h-5" aria-hidden="true">
-                <path
-                  d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 6.392 6.384">
-                </path>
-              </svg> Call +234 809 222 3960</a><a href="https://wa.me/2348092223960" target="_blank"
-              rel="noopener noreferrer"
-              class="inline-flex items-center gap-2 bg-green-600 hover:bg-green-500 text-white font-semibold px-8 py-4 rounded-full transition-all duration-300 hover:shadow-lg hover:shadow-green-500/25"><svg
-                xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
-                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                class="lucide lucide-message-circle w-5 h-5" aria-hidden="true">
-                <path
-                  d="M2.992 16.342a2 2 0 0 1 .094 1.167l-1.065 3.29a1 1 0 0 0 1.236 1.168l3.413-.998a2 2 0 0 1 1.099.092 10 10 0 1 0-4.777-4.719">
-                </path>
-              </svg> WhatsApp Us</a></div>
-        </div>
-      </section>
-      <section id="contact" class="py-20 lg:py-28 bg-neutral-900">
-        <div class="container max-w-7xl mx-auto px-4">
-          <div class="text-center mb-14">
-            <p class="text-amber-500 text-xs font-semibold tracking-[0.2em] uppercase mb-3">Get In Touch</p>
-            <h2 class="font-serif text-3xl sm:text-4xl lg:text-5xl font-bold text-white">Book Your Appointment</h2>
-            <p class="text-gray-400 mt-4 max-w-lg mx-auto text-sm">Ready for a transformation? Fill out the form below
-              or reach us directly. We'll get back to you fast.</p>
+  </div>
+  </section>
+
+  <!-- All remaining sections are preserved exactly from vader.html -->
+  <!-- The rest of the markup is included verbatim below to ensure exact match. -->
+  <section class="py-20 lg:py-28 bg-gray-100">
+
+    <div class="container max-w-7xl mx-auto px-4">
+      <div class="text-center mb-14">
+        <p class="text-amber-600 text-xs font-semibold tracking-[0.2em] uppercase mb-3">What We Offer</p>
+        <h2 class="font-serif text-3xl sm:text-4xl lg:text-5xl font-bold text-neutral-900">Our Services</h2>
+        <p class="text-gray-400 mt-4 max-w-lg mx-auto text-sm">Expert grooming and styling across four dedicated
+          categories. Whatever your style, we've got you covered.</p>
+      </div>
+      <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        <!-- Women's Styling -->
+        <div
+          class="group block bg-white rounded-2xl overflow-hidden border border-peach-200 hover:border-amber-300 transition-all duration-500">
+          <div class="aspect-[4/3] bg-peach-100 overflow-hidden">
+            <img class="w-full h-full object-cover group-hover:scale-[1.02] transition-transform duration-500"
+              src="src/images/womenhair.jpg" alt="Women's Styling" />
           </div>
-          <div class="grid lg:grid-cols-5 gap-10 max-w-5xl mx-auto">
-            <div class="lg:col-span-3">
-              <form class="space-y-5">
-                <div class="grid sm:grid-cols-2 gap-5">
-                  <div><label for="name" class="block text-sm font-medium text-gray-300 mb-1.5">Full
-                      Name</label><input id="name" required=""
-                      class="w-full bg-neutral-800 border border-white/10 rounded-lg px-4 py-3 text-white text-sm placeholder:text-gray-500 focus:outline-none focus:border-amber-500/50 focus:ring-1 focus:ring-amber-500/20 transition-colors"
-                      placeholder="Your name" type="text" name="name"></div>
-                  <div><label for="phone" class="block text-sm font-medium text-gray-300 mb-1.5">Phone
-                      Number</label><input id="phone" required=""
-                      class="w-full bg-neutral-800 border border-white/10 rounded-lg px-4 py-3 text-white text-sm placeholder:text-gray-500 focus:outline-none focus:border-amber-500/50 focus:ring-1 focus:ring-amber-500/20 transition-colors"
-                      placeholder="+234 800 000 0000" type="tel" name="phone"></div>
+          <div class="p-5">
+            <h3 class="font-serif text-lg sm:text-xl font-bold text-neutral-900 mb-2">Women&apos;s Styling</h3>
+            <p class="text-neutral-600 text-sm leading-relaxed">Luxury hair &amp; styling. Sleek silk presses,
+              intricate braiding, custom installs, weaving, and color treatments.</p>
+          </div>
+        </div>
+
+        <!-- Men's Grooming -->
+        <div
+          class="group block bg-white rounded-2xl overflow-hidden border border-peach-200 hover:border-amber-300 transition-all duration-500">
+          <div class="aspect-[4/3] bg-peach-100 overflow-hidden">
+            <img class="w-full h-full object-cover group-hover:scale-[1.02] transition-transform duration-500"
+              src="src/images/menshaircut.jpg" alt="Men's Grooming" />
+          </div>
+          <div class="p-5">
+            <h3 class="font-serif text-lg sm:text-xl font-bold text-neutral-900 mb-2">Men&apos;s Grooming</h3>
+            <p class="text-neutral-600 text-sm leading-relaxed">Precision cuts &amp; barbering. Sharp skin fades,
+              beard sculpting, hot towel treatments, and texturizing.</p>
+          </div>
+        </div>
+
+        <!-- Kids' Corner -->
+        <div
+          class="group block bg-white rounded-2xl overflow-hidden border border-peach-200 hover:border-amber-300 transition-all duration-500">
+          <div class="aspect-[4/3] bg-peach-100 overflow-hidden">
+            <img class="w-full h-full object-cover group-hover:scale-[1.02] transition-transform duration-500"
+              src="src/images/kidshaircut.jpg" alt="Kids' Corner" />
+          </div>
+          <div class="p-5">
+            <h3 class="font-serif text-lg sm:text-xl font-bold text-neutral-900 mb-2">Kids&apos; Corner</h3>
+            <p class="text-neutral-600 text-sm leading-relaxed">Gentle kids&apos; styling. Patient, professional
+              trims,
+              school braids, and careful detangling.</p>
+          </div>
+        </div>
+
+        <!-- General Services -->
+        <div
+          class="group block bg-white rounded-2xl overflow-hidden border border-peach-200 hover:border-amber-300 transition-all duration-500">
+          <div class="aspect-[4/3] bg-peach-100 overflow-hidden">
+            <img class="w-full h-full object-cover group-hover:scale-[1.02] transition-transform duration-500"
+              src="src/images/nailgeneral.jpg" alt="General Services" />
+          </div>
+          <div class="p-5">
+            <h3 class="font-serif text-lg sm:text-xl font-bold text-neutral-900 mb-2">General Services</h3>
+            <p class="text-neutral-600 text-sm leading-relaxed">Head-to-toe care. Pampering manicures &amp;
+              pedicures,
+              rejuvenating facials, and grooming add-ons.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="py-20 lg:py-28 relative overflow-hidden text-white">
+
+    <!-- 1. IMAGE BACKGROUND & OVERLAY LAYER -->
+    <div class="absolute inset-0 z-0">
+      <!-- The actual background image -->
+      <img
+        src="https://images.unsplash.com/photo-1596740926849-2d473dee8d60?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        alt="Salon Interior" class="w-full h-full object-cover" />
+      <!-- The dark overlay tint (adjust opacity via black/40, black/60, etc.) -->
+      <div class="absolute inset-0 bg-black/60"></div>
+    </div>
+
+    <!-- 2. YOUR ORIGINAL BLUR DECORATION -->
+    <div class="absolute -top-40 -right-40 w-80 h-80 bg-amber-500/5 rounded-full blur-3xl z-10"></div>
+
+    <!-- 3. YOUR CONTENT CONTAINER -->
+    <div class="container max-w-7xl mx-auto px-4 relative z-20">
+      <div class="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
+        <div>
+          <p class="text-amber-500 text-xs font-semibold tracking-[0.2em] uppercase mb-3">Our Story</p>
+          <h2 class="font-serif text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-6">About Vader's Style
+            Unisex Salon</h2>
+          <div class="space-y-4 text-gray-100 leading-relaxed">
+            <p>At Vader's Style, we bring out your best look and most confident self. Located premium off Chevron
+              Drive, Lekki, we offer expert hairstyling and grooming services for all genders and ages.</p>
+            <p>We believe grooming is personal — so we listen, advise, and tailor each cut to your unique vibe.
+              Every visit is a crafted experience in a clean, modern, and welcoming environment.</p>
+          </div><a
+            class="inline-flex items-center gap-2 mt-6 text-amber-500 hover:text-amber-400 text-sm font-semibold transition-colors"
+            href="/about-us" data-discover="true">Learn More About Us <span class="text-lg leading-none">→</span></a>
+        </div>
+        <div class="grid grid-cols-3 gap-4">
+          <div
+            class="bg-gradient-to-b via-white from-white to-amber-500 rounded-2xl p-6 text-center hover:border-amber-500/20 transition-all duration-500">
+            <p class="font-serif text-4xl sm:text-5xl font-bold text-amber-500 mb-1">12+</p>
+            <p class="text-xs text-gray-700 font-medium">Expert Stylists &amp; Barbers</p>
+          </div>
+          <div
+            class="bg-gradient-to-b via-white from-white to-amber-500 rounded-2xl p-6 text-center hover:border-amber-500/20 transition-all duration-500">
+            <p class="font-serif text-4xl sm:text-5xl font-bold text-amber-500 mb-1">1,500+</p>
+            <p class="text-xs text-gray-700 font-medium">Happy Clients Served</p>
+          </div>
+          <div
+            class="bg-gradient-to-b via-white from-white to-amber-500 rounded-2xl p-6 text-center hover:border-amber-500/20 transition-all duration-500">
+            <p class="font-serif text-4xl sm:text-5xl font-bold text-amber-500 mb-1">7 Days</p>
+            <p class="text-xs text-gray-700 font-medium">Weekly Consistency</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="py-20 lg:py-28 bg-white">
+    <div class="container max-w-7xl mx-auto px-4">
+      <div class="text-center mb-14">
+        <p class="text-amber-500 text-xs font-semibold tracking-[0.2em] uppercase mb-3">The Difference</p>
+        <h2 class="font-serif text-3xl sm:text-4xl lg:text-5xl font-bold text-black">Why Choose Vader's Style?
+        </h2>
+      </div>
+      <div class="grid md:grid-cols-3 gap-6">
+        <div class="bg-gradient-to-b from-amber-200 to-amber-600 rounded-2xl p-8">
+          <div class="w-12 h-12 rounded-full bg-white flex items-center justify-center mb-5">
+            <svg class="w-6 h-6 text-amber-500" fill="none" viewBox="0 0 24 24" stroke="currentColor"
+              stroke-width="1.5">
+              <path stroke-linecap="round" stroke-linejoin="round"
+                d="M9 12.75L11.25 15 15 9.75m-3-7.036A11.959 11.959 0 013.598 6 11.99 11.99 0 003 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285z">
+              </path>
+            </svg>
+          </div>
+          <h3 class="font-serif text-lg font-bold text-black mb-3">Skilled &amp; Friendly Experts</h3>
+          <p class="text-white text-sm leading-relaxed">Barbers and stylists who stay ahead of trends and match
+            cuts to your facial structure. We listen, then deliver.</p>
+        </div>
+        <div class="bg-gradient-to-b from-amber-200 to-amber-600 rounded-2xl p-8">
+          <div class="w-12 h-12 rounded-full bg-white flex items-center justify-center mb-5">
+            <svg class="w-6 h-6 text-amber-500" fill="none" viewBox="0 0 24 24" stroke="currentColor"
+              stroke-width="1.5">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z">
+              </path>
+            </svg>
+          </div>
+          <h3 class="font-serif text-lg font-bold text-black mb-3">Hygienic &amp; Modern Studio</h3>
+          <p class="text-white text-sm leading-relaxed">Clean tools, sterilized clippers, and a comfortable,
+            pristine atmosphere at Buckingham Court. Your safety matters.</p>
+        </div>
+        <div class="bg-gradient-to-b from-amber-200 to-amber-600 rounded-2xl p-8">
+          <div class="w-12 h-12 rounded-full bg-white flex items-center justify-center mb-5">
+            <svg class="w-6 h-6 text-amber-500" fill="none" viewBox="0 0 24 24" stroke="currentColor"
+              stroke-width="1.5">
+              <path stroke-linecap="round" stroke-linejoin="round"
+                d="M2.25 8.25h19.5M2.25 9h19.5m-16.5 5.25h6m-6 2.25h3m-3.75 3h15a2.25 2.25 0 002.25-2.25V6.75A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25v10.5A2.25 2.25 0 004.5 19.5z">
+              </path>
+            </svg>
+          </div>
+          <h3 class="font-serif text-lg font-bold text-black mb-3">Transparent, Great Pricing</h3>
+          <p class="text-white text-sm leading-relaxed">Premium quality styling and luxury treatments delivered
+            at highly competitive local rates. No surprises, just results.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="py-20 lg:py-28 relative overflow-hidden">
+    <div class="absolute inset-0"><img alt="" class="w-full h-full object-cover"
+        src="https://assets.ls-assets.com/provider/istock/2239627708.jpg?w=1920">
+      <div class="absolute inset-0 bg-gradient-to-b from-black/80 to-black/10 backdrop-blur-sm"></div>
+    </div>
+    <div class="container max-w-7xl mx-auto px-4 relative z-10 text-center">
+      <h2 class="font-serif text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-4">Ready to Look and Feel
+        Your
+        Best?</h2>
+      <p class="text-gray-300 max-w-lg mx-auto mb-10 text-base">Experience premium salon and grooming services in
+        Lekki. Book your next beauty, styling, or barbering session now and let us pamper you the Vader way.</p>
+      <div class="flex flex-wrap justify-center gap-4"><a href="tel:+2348092223960"
+          class="inline-flex items-center gap-2 bg-amber-500 hover:bg-amber-400 text-black font-semibold px-8 py-4 rounded-full transition-all duration-300 hover:shadow-lg hover:shadow-amber-500/25"><svg
+            xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+            class="lucide lucide-phone w-5 h-5" aria-hidden="true">
+            <path
+              d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 6.392 6.384">
+            </path>
+          </svg> Call +234 809 222 3960</a><a href="https://wa.me/2348092223960" target="_blank"
+          rel="noopener noreferrer"
+          class="inline-flex items-center gap-2 bg-green-600 hover:bg-green-500 text-white font-semibold px-8 py-4 rounded-full transition-all duration-300 hover:shadow-lg hover:shadow-green-500/25"><svg
+            xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+            class="lucide lucide-message-circle w-5 h-5" aria-hidden="true">
+            <path
+              d="M2.992 16.342a2 2 0 0 1 .094 1.167l-1.065 3.29a1 1 0 0 0 1.236 1.168l3.413-.998a2 2 0 0 1 1.099.092 10 10 0 1 0-4.777-4.719">
+            </path>
+          </svg> WhatsApp Us</a></div>
+    </div>
+  </section>
+  <section id="contact" class="py-20 lg:py-28 bg-neutral-900">
+    <div class="container max-w-7xl mx-auto px-4">
+      <div class="text-center mb-14">
+        <p class="text-amber-500 text-xs font-semibold tracking-[0.2em] uppercase mb-3">Get In Touch</p>
+        <h2 class="font-serif text-3xl sm:text-4xl lg:text-5xl font-bold text-white">Book Your Appointment</h2>
+        <p class="text-gray-400 mt-4 max-w-lg mx-auto text-sm">Ready for a transformation? Fill out the form below
+          or reach us directly. We'll get back to you fast.</p>
+      </div>
+      <div class="grid lg:grid-cols-5 gap-10 max-w-5xl mx-auto">
+        <div class="lg:col-span-3">
+          <form class="space-y-5">
+            <div class="grid sm:grid-cols-2 gap-5">
+              <div><label for="name" class="block text-sm font-medium text-gray-300 mb-1.5">Full
+                  Name</label><input id="name" required=""
+                  class="w-full bg-neutral-800 border border-white/10 rounded-lg px-4 py-3 text-white text-sm placeholder:text-gray-500 focus:outline-none focus:border-amber-500/50 focus:ring-1 focus:ring-amber-500/20 transition-colors"
+                  placeholder="Your name" type="text" name="name"></div>
+              <div><label for="phone" class="block text-sm font-medium text-gray-300 mb-1.5">Phone
+                  Number</label><input id="phone" required=""
+                  class="w-full bg-neutral-800 border border-white/10 rounded-lg px-4 py-3 text-white text-sm placeholder:text-gray-500 focus:outline-none focus:border-amber-500/50 focus:ring-1 focus:ring-amber-500/20 transition-colors"
+                  placeholder="+234 800 000 0000" type="tel" name="phone"></div>
+            </div>
+            <div><label for="email" class="block text-sm font-medium text-gray-300 mb-1.5">Email
+                Address</label><input id="email" required=""
+                class="w-full bg-neutral-800 border border-white/10 rounded-lg px-4 py-3 text-white text-sm placeholder:text-gray-500 focus:outline-none focus:border-amber-500/50 focus:ring-1 focus:ring-amber-500/20 transition-colors"
+                placeholder="you@example.com" type="email" name="email"></div>
+            <div><label for="service" class="block text-sm font-medium text-gray-300 mb-1.5">Service Interested
+                In</label><select id="service" name="service"
+                class="w-full bg-neutral-800 border border-white/10 rounded-lg px-4 py-3 text-white text-sm focus:outline-none focus:border-amber-500/50 focus:ring-1 focus:ring-amber-500/20 transition-colors">
+                <option value="">Select a service</option>
+                <option value="mens-grooming">Men's Grooming</option>
+                <option value="womens-styling">Women's Styling</option>
+                <option value="kids-corner">Kids' Corner</option>
+                <option value="general-services">General Services</option>
+                <option value="other">Other / Multiple</option>
+              </select></div>
+            <div><label for="message" class="block text-sm font-medium text-gray-300 mb-1.5">Message
+                (Optional)</label><textarea id="message" name="message" rows="3"
+                class="w-full bg-neutral-800 border border-white/10 rounded-lg px-4 py-3 text-white text-sm placeholder:text-gray-500 focus:outline-none focus:border-amber-500/50 focus:ring-1 focus:ring-amber-500/20 transition-colors resize-none"
+                placeholder="Tell us about the style you're looking for..."></textarea></div>
+            <div>
+              <div id="cf-turnstile">
+                <div><input type="hidden" name="cf-turnstile-response" id="cf-chl-widget-e4c8s_response" value="">
                 </div>
-                <div><label for="email" class="block text-sm font-medium text-gray-300 mb-1.5">Email
-                    Address</label><input id="email" required=""
-                    class="w-full bg-neutral-800 border border-white/10 rounded-lg px-4 py-3 text-white text-sm placeholder:text-gray-500 focus:outline-none focus:border-amber-500/50 focus:ring-1 focus:ring-amber-500/20 transition-colors"
-                    placeholder="you@example.com" type="email" name="email"></div>
-                <div><label for="service" class="block text-sm font-medium text-gray-300 mb-1.5">Service Interested
-                    In</label><select id="service" name="service"
-                    class="w-full bg-neutral-800 border border-white/10 rounded-lg px-4 py-3 text-white text-sm focus:outline-none focus:border-amber-500/50 focus:ring-1 focus:ring-amber-500/20 transition-colors">
-                    <option value="">Select a service</option>
-                    <option value="mens-grooming">Men's Grooming</option>
-                    <option value="womens-styling">Women's Styling</option>
-                    <option value="kids-corner">Kids' Corner</option>
-                    <option value="general-services">General Services</option>
-                    <option value="other">Other / Multiple</option>
-                  </select></div>
-                <div><label for="message" class="block text-sm font-medium text-gray-300 mb-1.5">Message
-                    (Optional)</label><textarea id="message" name="message" rows="3"
-                    class="w-full bg-neutral-800 border border-white/10 rounded-lg px-4 py-3 text-white text-sm placeholder:text-gray-500 focus:outline-none focus:border-amber-500/50 focus:ring-1 focus:ring-amber-500/20 transition-colors resize-none"
-                    placeholder="Tell us about the style you're looking for..."></textarea></div>
-                <div>
-                  <div id="cf-turnstile">
-                    <div><input type="hidden" name="cf-turnstile-response" id="cf-chl-widget-e4c8s_response" value="">
-                    </div>
-                  </div>
-                </div><button type="submit"
-                  class="w-full bg-amber-500 hover:bg-amber-400 disabled:bg-amber-500/50 text-black font-semibold py-3.5 rounded-lg transition-all duration-300 flex items-center justify-center gap-2 text-sm"><svg
-                    xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+              </div>
+            </div><button type="submit"
+              class="w-full bg-amber-500 hover:bg-amber-400 disabled:bg-amber-500/50 text-black font-semibold py-3.5 rounded-lg transition-all duration-300 flex items-center justify-center gap-2 text-sm"><svg
+                xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="lucide lucide-send w-4 h-4" aria-hidden="true">
+                <path
+                  d="M14.536 21.686a.5.5 0 0 0 .937-.024l6.5-19a.496.496 0 0 0-.635-.635l-19 6.5a.5.5 0 0 0-.024.937l7.93 3.18a2 2 0 0 1 1.112 1.11z">
+                </path>
+                <path d="m21.854 2.147-10.94 10.939"></path>
+              </svg> Send Message</button>
+          </form>
+        </div>
+        <div class="lg:col-span-2 space-y-6">
+          <div class="bg-neutral-950 rounded-2xl p-6">
+            <h3 class="font-serif text-lg font-bold text-white mb-4">Contact Info</h3>
+            <div class="space-y-4"><a href="tel:+2348092223960"
+                class="flex items-center gap-3 text-gray-400 hover:text-amber-500 transition-colors group">
+                <div
+                  class="w-10 h-10 rounded-full bg-amber-500/10 flex items-center justify-center flex-shrink-0 group-hover:bg-amber-500/20 transition-colors">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
                     stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                    class="lucide lucide-send w-4 h-4" aria-hidden="true">
+                    class="lucide lucide-phone w-4 h-4 text-amber-500" aria-hidden="true">
                     <path
-                      d="M14.536 21.686a.5.5 0 0 0 .937-.024l6.5-19a.496.496 0 0 0-.635-.635l-19 6.5a.5.5 0 0 0-.024.937l7.93 3.18a2 2 0 0 1 1.112 1.11z">
+                      d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 6.392 6.384">
                     </path>
-                    <path d="m21.854 2.147-10.94 10.939"></path>
-                  </svg> Send Message</button>
-              </form>
-            </div>
-            <div class="lg:col-span-2 space-y-6">
-              <div class="bg-neutral-950 border border-white/5 rounded-2xl p-6">
-                <h3 class="font-serif text-lg font-bold text-white mb-4">Contact Info</h3>
-                <div class="space-y-4"><a href="tel:+2348092223960"
-                    class="flex items-center gap-3 text-gray-400 hover:text-amber-500 transition-colors group">
-                    <div
-                      class="w-10 h-10 rounded-full bg-amber-500/10 flex items-center justify-center flex-shrink-0 group-hover:bg-amber-500/20 transition-colors">
-                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
-                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                        class="lucide lucide-phone w-4 h-4 text-amber-500" aria-hidden="true">
-                        <path
-                          d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 6.392 6.384">
-                        </path>
-                      </svg>
-                    </div>
-                    <div>
-                      <p class="text-xs text-gray-500">Phone</p>
-                      <p class="text-sm font-medium text-white">+234 809 222 3960</p>
-                    </div>
-                  </a><a href="https://wa.me/2348092223960" target="_blank" rel="noopener noreferrer"
-                    class="flex items-center gap-3 text-gray-400 hover:text-green-400 transition-colors group">
-                    <div
-                      class="w-10 h-10 rounded-full bg-green-500/10 flex items-center justify-center flex-shrink-0 group-hover:bg-green-500/20 transition-colors">
-                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
-                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                        class="lucide lucide-message-circle w-4 h-4 text-green-400" aria-hidden="true">
-                        <path
-                          d="M2.992 16.342a2 2 0 0 1 .094 1.167l-1.065 3.29a1 1 0 0 0 1.236 1.168l3.413-.998a2 2 0 0 1 1.099.092 10 10 0 1 0-4.777-4.719">
-                        </path>
-                      </svg>
-                    </div>
-                    <div>
-                      <p class="text-xs text-gray-500">WhatsApp</p>
-                      <p class="text-sm font-medium text-white">Chat With Us</p>
-                    </div>
-                  </a>
-                  <div class="flex items-center gap-3 text-gray-400">
-                    <div class="w-10 h-10 rounded-full bg-amber-500/10 flex items-center justify-center flex-shrink-0">
-                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
-                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                        class="lucide lucide-map-pin w-4 h-4 text-amber-500" aria-hidden="true">
-                        <path
-                          d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0">
-                        </path>
-                        <circle cx="12" cy="10" r="3"></circle>
-                      </svg>
-                    </div>
-                    <div>
-                      <p class="text-xs text-gray-500">Location</p>
-                      <p class="text-sm font-medium text-white">House 1 Buckingham Court, Alternative Road, Off
-                        Chevron
-                        Dr, Eti-Osa, Lekki</p>
-                    </div>
-                  </div>
+                  </svg>
                 </div>
-              </div>
-              <div class="bg-neutral-950 border border-white/5 rounded-2xl p-6">
-                <h3 class="font-serif text-lg font-bold text-white mb-4 flex items-center gap-2"><svg
-                    xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                <div>
+                  <p class="text-xs text-gray-500">Phone</p>
+                  <p class="text-sm font-medium text-white">+234 809 222 3960</p>
+                </div>
+              </a><a href="https://wa.me/2348092223960" target="_blank" rel="noopener noreferrer"
+                class="flex items-center gap-3 text-gray-400 hover:text-green-400 transition-colors group">
+                <div
+                  class="w-10 h-10 rounded-full bg-green-500/10 flex items-center justify-center flex-shrink-0 group-hover:bg-green-500/20 transition-colors">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
                     stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                    class="lucide lucide-clock w-4 h-4 text-amber-500" aria-hidden="true">
-                    <circle cx="12" cy="12" r="10"></circle>
-                    <path d="M12 6v6l4 2"></path>
-                  </svg> Operating Hours</h3>
-                <div class="space-y-3 text-sm">
-                  <div class="flex justify-between"><span class="text-gray-400">Mon – Thu</span><span
-                      class="text-white font-medium">10:00 AM – 7:00 PM</span></div>
-                  <div class="flex justify-between"><span class="text-gray-400">Fri – Sat</span><span
-                      class="text-white font-medium">9:00 AM – 8:00 PM</span></div>
-                  <div class="flex justify-between"><span class="text-gray-400">Sun</span><span
-                      class="text-white font-medium">1:00 PM – 8:00 PM</span></div>
+                    class="lucide lucide-message-circle w-4 h-4 text-green-400" aria-hidden="true">
+                    <path
+                      d="M2.992 16.342a2 2 0 0 1 .094 1.167l-1.065 3.29a1 1 0 0 0 1.236 1.168l3.413-.998a2 2 0 0 1 1.099.092 10 10 0 1 0-4.777-4.719">
+                    </path>
+                  </svg>
+                </div>
+                <div>
+                  <p class="text-xs text-gray-500">WhatsApp</p>
+                  <p class="text-sm font-medium text-white">Chat With Us</p>
+                </div>
+              </a>
+              <div class="flex items-center gap-3 text-gray-400">
+                <div class="w-10 h-10 rounded-full bg-amber-500/10 flex items-center justify-center flex-shrink-0">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    class="lucide lucide-map-pin w-4 h-4 text-amber-500" aria-hidden="true">
+                    <path
+                      d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0">
+                    </path>
+                    <circle cx="12" cy="10" r="3"></circle>
+                  </svg>
+                </div>
+                <div>
+                  <p class="text-xs text-gray-500">Location</p>
+                  <p class="text-sm font-medium text-white">House 1 Buckingham Court, Alternative Road, Off
+                    Chevron
+                    Dr, Eti-Osa, Lekki</p>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-      </section>
-    </main>
-
-    <footer class="bg-black border-t border-peach-200 pt-16 pb-8">
-      <div class="container max-w-7xl mx-auto px-4">
-        <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-10 mb-12">
-          <div class="sm:col-span-2 lg:col-span-1">
-            <a class="font-serif text-xl font-bold text-white tracking-wider" href="/" data-discover="true">VADER'S
-              <span class="text-amber-500">STYLE</span></a>
-            <p class="text-gray-400 text-sm mt-3 leading-relaxed">Lekki's premier unisex salon — expert cuts, styling,
-              and grooming for all genders and ages.</p>
-            <div class="flex items-center gap-2 mt-5">
-              <span class="text-[10px] text-gray-500 font-medium bg-neutral-800 px-2.5 py-1 rounded">Visa</span>
-              <span class="text-[10px] text-gray-500 font-medium bg-neutral-800 px-2.5 py-1 rounded">Mastercard</span>
-              <span class="text-[10px] text-gray-500 font-medium bg-neutral-800 px-2.5 py-1 rounded">Contactless</span>
-            </div>
-          </div>
-
-          <div>
-            <h4 class="font-serif text-sm font-bold text-white mb-4">Quick Links</h4>
-            <nav class="space-y-2.5">
-              <a class="block text-sm text-gray-400 hover:text-amber-500 transition-colors" href="/services"
-                data-discover="true">Services</a>
-              <a class="block text-sm text-gray-400 hover:text-amber-500 transition-colors" href="/about-us"
-                data-discover="true">About Us</a>
-              <a class="block text-sm text-gray-400 hover:text-amber-500 transition-colors" href="/gallery"
-                data-discover="true">Gallery</a>
-              <a class="block text-sm text-gray-400 hover:text-amber-500 transition-colors" href="/testimonials"
-                data-discover="true">Testimonials</a>
-              <a class="block text-sm text-gray-400 hover:text-amber-500 transition-colors" href="/contact"
-                data-discover="true">Contact</a>
-              <a class="block text-sm text-amber-500 hover:text-amber-400 transition-colors font-medium"
-                href="/book-appointment" data-discover="true">Book Appointment</a>
-            </nav>
-          </div>
-
-          <div>
-            <h4 class="font-serif text-sm font-bold text-white mb-4 flex items-center gap-2">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+          <div class="bg-neutral-950 border border-white/5 rounded-2xl p-6">
+            <h3 class="font-serif text-lg font-bold text-white mb-4 flex items-center gap-2"><svg
+                xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
                 stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
                 class="lucide lucide-clock w-4 h-4 text-amber-500" aria-hidden="true">
                 <circle cx="12" cy="12" r="10"></circle>
                 <path d="M12 6v6l4 2"></path>
-              </svg>
-              Hours
-            </h4>
-            <div class="space-y-2.5 text-sm">
-              <div class="flex justify-between gap-4"><span class="text-gray-500">Mon – Thu</span><span
-                  class="text-gray-300">10:00 AM – 7:00 PM</span></div>
-              <div class="flex justify-between gap-4"><span class="text-gray-500">Fri – Sat</span><span
-                  class="text-gray-300">9:00 AM – 8:00 PM</span></div>
-              <div class="flex justify-between gap-4"><span class="text-gray-500">Sun</span><span
-                  class="text-gray-300">1:00 PM – 8:00 PM</span></div>
+              </svg> Operating Hours</h3>
+            <div class="space-y-3 text-sm">
+              <div class="flex justify-between"><span class="text-gray-400">Mon – Thu</span><span
+                  class="text-white font-medium">10:00 AM – 7:00 PM</span></div>
+              <div class="flex justify-between"><span class="text-gray-400">Fri – Sat</span><span
+                  class="text-white font-medium">9:00 AM – 8:00 PM</span></div>
+              <div class="flex justify-between"><span class="text-gray-400">Sun</span><span
+                  class="text-white font-medium">1:00 PM – 8:00 PM</span></div>
             </div>
-          </div>
-
-          <div>
-            <h4 class="font-serif text-sm font-bold text-white mb-4">Location</h4>
-            <div class="space-y-3">
-              <div class="flex items-start gap-3">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
-                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                  class="lucide lucide-map-pin w-4 h-4 text-amber-500 flex-shrink-0 mt-0.5" aria-hidden="true">
-                  <path
-                    d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0">
-                  </path>
-                  <circle cx="12" cy="10" r="3"></circle>
-                </svg>
-                <p class="text-sm text-gray-400 leading-relaxed">House 1 Buckingham Court, Alternative Road, Off Chevron
-                  Dr, Eti-Osa, Lekki</p>
-              </div>
-              <a href="tel:+2348092223960"
-                class="flex items-center gap-3 text-sm text-gray-400 hover:text-amber-500 transition-colors">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
-                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                  class="lucide lucide-phone w-4 h-4 text-amber-500 flex-shrink-0" aria-hidden="true">
-                  <path
-                    d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 6.392 6.384">
-                  </path>
-                </svg>
-                +234 809 222 3960
-              </a>
-              <a href="https://wa.me/2348092223960" target="_blank" rel="noopener noreferrer"
-                class="flex items-center gap-3 text-sm text-gray-400 hover:text-green-400 transition-colors">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
-                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                  class="lucide lucide-message-circle w-4 h-4 text-green-400 flex-shrink-0" aria-hidden="true">
-                  <path
-                    d="M2.992 16.342a2 2 0 0 1 .094 1.167l-1.065 3.29a1 1 0 0 0 1.236 1.168l3.413-.998a2 2 0 0 1 1.099.092 10 10 0 1 0-4.777-4.719">
-                  </path>
-                </svg>
-                Chat on WhatsApp
-              </a>
-            </div>
-          </div>
-        </div>
-
-        <div class="border-t border-white/5 pt-8 flex flex-col sm:flex-row items-center justify-between gap-4">
-          <p class="text-xs text-gray-500">© 2026 Vader's Style Unisex Salon. All rights reserved.</p>
-          <div class="flex items-center gap-6">
-            <a class="text-xs text-gray-500 hover:text-gray-400 transition-colors" href="/services"
-              data-discover="true">Services</a>
-            <a class="text-xs text-gray-500 hover:text-gray-400 transition-colors" href="/about-us"
-              data-discover="true">About</a>
-            <a class="text-xs text-gray-500 hover:text-gray-400 transition-colors" href="/contact"
-              data-discover="true">Contact</a>
-            <a class="text-xs text-amber-500 hover:text-amber-400 transition-colors font-medium"
-              href="/book-appointment" data-discover="true">Book Now</a>
           </div>
         </div>
       </div>
-    </footer>
+    </div>
+  </section>
+  </main>
+
+  <footer class="bg-black pt-16 pb-8">
+    <div class="container max-w-7xl mx-auto px-4">
+      <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-10 mb-12">
+        <div class="sm:col-span-2 lg:col-span-1">
+          <a class="font-serif text-xl font-bold text-white tracking-wider" href="/" data-discover="true">VADER'S
+            <span class="text-amber-500">STYLE</span></a>
+          <p class="text-gray-400 text-sm mt-3 leading-relaxed">Lekki's premier unisex salon — expert cuts, styling,
+            and grooming for all genders and ages.</p>
+          <div class="flex items-center gap-2 mt-5">
+            <span class="text-[10px] text-gray-500 font-medium bg-neutral-800 px-2.5 py-1 rounded">Visa</span>
+            <span class="text-[10px] text-gray-500 font-medium bg-neutral-800 px-2.5 py-1 rounded">Mastercard</span>
+            <span class="text-[10px] text-gray-500 font-medium bg-neutral-800 px-2.5 py-1 rounded">Contactless</span>
+          </div>
+        </div>
+
+        <div>
+          <h4 class="font-serif text-sm font-bold text-white mb-4">Quick Links</h4>
+          <nav class="space-y-2.5">
+            <a class="block text-sm text-gray-400 hover:text-amber-500 transition-colors" href="/services"
+              data-discover="true">Services</a>
+            <a class="block text-sm text-gray-400 hover:text-amber-500 transition-colors" href="/about-us"
+              data-discover="true">About Us</a>
+            <a class="block text-sm text-gray-400 hover:text-amber-500 transition-colors" href="/gallery"
+              data-discover="true">Gallery</a>
+            <a class="block text-sm text-gray-400 hover:text-amber-500 transition-colors" href="/testimonials"
+              data-discover="true">Testimonials</a>
+            <a class="block text-sm text-gray-400 hover:text-amber-500 transition-colors" href="/contact"
+              data-discover="true">Contact</a>
+            <a class="block text-sm text-amber-500 hover:text-amber-400 transition-colors font-medium"
+              href="/book-appointment" data-discover="true">Book Appointment</a>
+          </nav>
+        </div>
+
+        <div>
+          <h4 class="font-serif text-sm font-bold text-white mb-4 flex items-center gap-2">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+              class="lucide lucide-clock w-4 h-4 text-amber-500" aria-hidden="true">
+              <circle cx="12" cy="12" r="10"></circle>
+              <path d="M12 6v6l4 2"></path>
+            </svg>
+            Hours
+          </h4>
+          <div class="space-y-2.5 text-sm">
+            <div class="flex justify-between gap-4"><span class="text-gray-500">Mon – Thu</span><span
+                class="text-gray-300">10:00 AM – 7:00 PM</span></div>
+            <div class="flex justify-between gap-4"><span class="text-gray-500">Fri – Sat</span><span
+                class="text-gray-300">9:00 AM – 8:00 PM</span></div>
+            <div class="flex justify-between gap-4"><span class="text-gray-500">Sun</span><span
+                class="text-gray-300">1:00 PM – 8:00 PM</span></div>
+          </div>
+        </div>
+
+        <div>
+          <h4 class="font-serif text-sm font-bold text-white mb-4">Location</h4>
+          <div class="space-y-3">
+            <div class="flex items-start gap-3">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="lucide lucide-map-pin w-4 h-4 text-amber-500 flex-shrink-0 mt-0.5" aria-hidden="true">
+                <path
+                  d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0">
+                </path>
+                <circle cx="12" cy="10" r="3"></circle>
+              </svg>
+              <p class="text-sm text-gray-400 leading-relaxed">House 1 Buckingham Court, Alternative Road, Off Chevron
+                Dr, Eti-Osa, Lekki</p>
+            </div>
+            <a href="tel:+2348092223960"
+              class="flex items-center gap-3 text-sm text-gray-400 hover:text-amber-500 transition-colors">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="lucide lucide-phone w-4 h-4 text-amber-500 flex-shrink-0" aria-hidden="true">
+                <path
+                  d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 6.392 6.384">
+                </path>
+              </svg>
+              +234 809 222 3960
+            </a>
+            <a href="https://wa.me/2348092223960" target="_blank" rel="noopener noreferrer"
+              class="flex items-center gap-3 text-sm text-gray-400 hover:text-green-400 transition-colors">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="lucide lucide-message-circle w-4 h-4 text-green-400 flex-shrink-0" aria-hidden="true">
+                <path
+                  d="M2.992 16.342a2 2 0 0 1 .094 1.167l-1.065 3.29a1 1 0 0 0 1.236 1.168l3.413-.998a2 2 0 0 1 1.099.092 10 10 0 1 0-4.777-4.719">
+                </path>
+              </svg>
+              Chat on WhatsApp
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="border-t border-white/5 pt-8 flex flex-col sm:flex-row items-center justify-between gap-4">
+        <p class="text-xs text-gray-500">© 2026 Vader's Style Unisex Salon. All rights reserved.</p>
+        <div class="flex items-center gap-6">
+          <a class="text-xs text-gray-500 hover:text-gray-400 transition-colors" href="/services"
+            data-discover="true">Services</a>
+          <a class="text-xs text-gray-500 hover:text-gray-400 transition-colors" href="/about-us"
+            data-discover="true">About</a>
+          <a class="text-xs text-gray-500 hover:text-gray-400 transition-colors" href="/contact"
+            data-discover="true">Contact</a>
+          <a class="text-xs text-amber-500 hover:text-amber-400 transition-colors font-medium" href="/book-appointment"
+            data-discover="true">Book Now</a>
+        </div>
+      </div>
+    </div>
+  </footer>
   </div>
+  <script>
+    window.addEventListener("load", () => {
+      const carousel = document.getElementById("hero-carousel");
+      if (!carousel) return;
+
+      // totalSlides will now be 5 because of the clone
+      const totalSlides = carousel.children.length;
+      let currentIndex = 0;
+
+      function nextSlide() {
+        currentIndex++;
+
+        // 1. Ensure the transition animation classes are active
+        carousel.classList.add('transition-transform', 'duration-500', 'ease-in-out');
+
+        // 2. Slide forward naturally (including onto the cloned 5th slide)
+        carousel.style.transform = `translateX(-${currentIndex * 100}%)`;
+      }
+
+      // This event fires every single time a slide finishing sliding completely
+      carousel.addEventListener('transitionend', () => {
+        // If we are currently looking at the cloned first image (index 4)
+        if (currentIndex === totalSlides - 1) {
+          // Drop the animation classes instantly so the user doesn't see the jump
+          carousel.classList.remove('transition-transform', 'duration-500', 'ease-in-out');
+
+          // Reset the index back to the real first slide
+          currentIndex = 0;
+
+          // Snap the position instantly back to 0%
+          carousel.style.transform = `translateX(0%)`;
+        }
+      });
+
+      // Run every 4 seconds
+      setInterval(nextSlide, 4000);
+    });
+  </script>
 </body>
 
 </html>
